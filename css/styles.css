@@ -110,11 +110,15 @@ a {
 }
 
 #name1 {
-    color: #ffa500
+    color: #ffa500;
+    margin: 0;
+    display: inline-block;
 }
 
-#name1 {
-    color: #2bbfa9
+#name2 {
+    color: #2bbfa9;
+    margin: 0;
+    display: inline-block;
 }
 
 #intro {
