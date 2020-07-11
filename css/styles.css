@@ -38,7 +38,6 @@ a {
 @media only screen and (max-width: 450px) {
     h1 {
         font-size: 3rem;
-        border-bottom: 2px solid #fff;
     }
 
     p,
@@ -55,27 +54,6 @@ a {
 
 .links {
     margin-top: 0.5rem;
-}
-
-#lottie {
-    min-height: 30px;
-    min-width: 30px;
-    position: relative;
-    margin: 10px;
-}
-
-.stats {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20%;
-    border-top: 2px solid #939393;
-}
-
-#loc-text {
-    margin-top: 0.55rem;
-    font-size: 1rem;
-    line-height: 2rem;
-    color: #939393;
 }
 
 #name {
