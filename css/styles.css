@@ -78,32 +78,6 @@ a {
     color: #939393;
 }
 
-@media only screen and (min-width: 450px) {
-    .linear-wipe {
-        background: linear-gradient(to right, #8C83FF 20%, #007DFF 40%, #FF7F93 60%, #59EFE5 80%, #8C83FF 100%);
-        background-size: 200% auto;
-        color: #000;
-        background-clip: text;
-        text-fill-color: transparent;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-animation: shine 10s linear infinite;
-        animation: shine 10s linear infinite;
-    }
-
-    @-webkit-keyframes shine {
-        to {
-            background-position: 200% center;
-        }
-    }
-
-    @keyframes shine {
-        to {
-            background-position: 200% center;
-        }
-    }
-}
-
 #name {
     font-size: 7rem;
 }
@@ -111,15 +85,15 @@ a {
 #intro-1 {
     color: #ffa500;
     margin: 0;
-    display: inline-block;
+    font-size: inherit;
 }
 
 #intro-2 {
     color: #2bbfa9;
     margin: 0;
-    display: inline-block;
+    font-size: inherit;
 }
 
 #intro {
-    font-size: 3rem;
+    font-size: 4rem;
 }
