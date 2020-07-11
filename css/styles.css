@@ -30,7 +30,6 @@ a {
 }
 
 a {
-    margin-right: 10px;
     color: inherit;
     text-decoration: none;
     border-bottom: 2px solid #fff;
@@ -109,13 +108,13 @@ a {
     font-size: 7rem;
 }
 
-#name1 {
+#intro-1 {
     color: #ffa500;
     margin: 0;
     display: inline-block;
 }
 
-#name2 {
+#intro-2 {
     color: #2bbfa9;
     margin: 0;
     display: inline-block;
